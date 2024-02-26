@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>left-arrow</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Projects-Internal" transform="translate(-117.000000, -116.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="back-button" transform="translate(117.000000, 111.000000)">
+                <g id="left-arrow" transform="translate(0.000000, 5.000000)">
+                    <polygon id="Path" points="5.14629468 0 0 4.9999879 5.14457769 10 5.75057596 9.4125033 1.64057241 5.41665961 12 5.41665961 12 4.58334039 1.64057241 4.58334039 5.75229295 0.585827404"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

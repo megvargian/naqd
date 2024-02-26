@@ -1,0 +1,58 @@
+$main_color: #FD4400;
+$main_color_faded: rgba(125, 36, 53, 0.2);
+
+$sec_color: #d09615;
+
+$grey_color: rgb(178,178,178);
+
+$header_opening_hours: #B2B2B2;
+
+$text_color: #194e91;
+
+$text_white: #fff;
+$text_black: #000;
+
+$bg_white: #fff;
+$bg_black: #000;
+
+$transition_time: .3s;
+
+
+@mixin transition_c($transition_time) {
+	transition: $transition_time;
+}
+
+@mixin transition() {
+	-webkit-transition: $transition_time;
+	-moz-transition: $transition_time;
+	transition: $transition_time;
+}
+@mixin transform($data) {
+	-webkit-transform: $data;
+	-ms-transform: $data;
+	transform: $data;
+}
+@mixin bg_cover {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+@mixin bg_cover_c($position) {
+	background-size: cover;
+	background-position: $position;
+	background-repeat: no-repeat;
+}
+@mixin absolute_center($width, $height){
+	width: $width;
+	height: $height;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -($height/2);
+	margin-left: -($width/2);
+}
+
+// fonts
+$lalezar-regular:			    "lalezar-regular";
+$cairo-regular:			    	"cairo-regular";
+

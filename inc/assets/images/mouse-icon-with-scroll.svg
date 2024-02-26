@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="21px" viewBox="0 0 15 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Scroll\mouse icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-" transform="translate(-505.000000, -435.000000)">
+            <g id="Scroll\mouse-icon" transform="translate(505.000000, 435.000000)">
+                <rect id="Rectangle" stroke="#FFFFFF" x="0.5" y="0.5" width="14" height="20" rx="7"></rect>
+                <line x1="7.5" y1="4" x2="7.5" y2="10" id="Path" stroke="#FFDD00" stroke-linecap="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>
