@@ -633,8 +633,8 @@ function load_more_author_posts() {
                 <?php } ?>
             </div>
         </a>
-        <a href="<?php echo get_permalink(get_the_ID()); ?>">
-            <h4 class="mt-10 mb-lg-0 mb-4"><?php the_title(); ?></h4>
+        <a href="<?php echo get_permalink($post_id); ?>">
+            <h4 class="mt-10 mb-lg-0 mb-4"><?php echo get_the_title($post_id); ?></h4>
         </a>
     </div>
 </div>
