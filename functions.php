@@ -423,7 +423,7 @@ function load_more_posts() {
         'post_type' => 'post',
         'posts_per_page' => 6,
         'paged' => $page,
-        'order'             =>      'ASC',
+        'order'             =>      'DSC',
         'orderby'           =>      'date',
     );
 
@@ -490,7 +490,7 @@ function load_more_tag_posts() {
         'post_type' => 'post',
         'posts_per_page' => 6,
         'paged' => $page,
-        'order'             =>      'ASC',
+        'order'             =>      'DSC',
         'orderby'           =>      'date',
     );
 
@@ -557,7 +557,7 @@ function load_more_posts_search() {
         'post_type' => 'post',
         'posts_per_page' => 6,
         'paged' => $page,
-        'order'             =>      'ASC',
+        'order'             =>      'DSC',
         'orderby'           =>      'date',
     );
 

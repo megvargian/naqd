@@ -10,10 +10,10 @@
 get_header();
 $count = 0;
 $query_default_args = array(
-	'posts_per_page'    =>         6,
-	'post_type'         =>         'post',
-	's'                 =>         get_search_query(),
-	'order'             =>      'ASC',
+	'posts_per_page'    =>        6,
+	'post_type'         =>       'post',
+	's'                 =>       get_search_query(),
+	'order'             =>      'DSC',
     'orderby'           =>      'date',
 );
 $query_default_projects = new WP_Query($query_default_args);

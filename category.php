@@ -9,7 +9,7 @@ $args = array(
     'cat' => get_query_var('cat'),
     'post_type' => 'post',
     'posts_per_page' => 6,
-    'order'             =>      'ASC',
+    'order'             =>      'DSC',
     'orderby'           =>      'date',
 );
 $query = new WP_Query($args);

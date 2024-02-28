@@ -13,7 +13,7 @@ $args = array(
     'tag_id' => $tag_id,
     'post_type' => 'post',
     'posts_per_page' => 6,
-    'order'             =>      'ASC',
+    'order'             =>      'DSC',
     'orderby'           =>      'date',
 );
 $query = new WP_Query($args);
