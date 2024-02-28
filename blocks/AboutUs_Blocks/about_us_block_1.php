@@ -48,12 +48,13 @@ $query = new WP_Query($args);
                         <?php
                             if ( $query -> have_posts() ) :
                                 while ( $query -> have_posts() ) :  $query -> the_post();
-                                $title = get_the_title(get_the_ID());
+                                $single_post_id = get_the_ID();
+                                $title = get_the_title($single_post_id);
                             ?>
                                 <div class="swiper-slide">
                                     <div class="author">
-                                        <a href="<?php echo get_permalink(get_the_ID()) ?>">
-                                            <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()) ?>" alt="<?php echo $title ?>" loading="lazy">
+                                        <a href="<?php echo get_permalink($single_post_id) ?>">
+                                            <img src="<?php echo get_the_post_thumbnail_url($single_post_id) ?>" alt="<?php echo $title ?>" loading="lazy">
                                             <h5><?php echo $title; ?></h5>
                                         </a>
                                     </div>
