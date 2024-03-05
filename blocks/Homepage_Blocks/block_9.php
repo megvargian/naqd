@@ -114,9 +114,9 @@ $tab_2_get_title = get_the_title($tab_2['main_post'] -> ID);
                     </div>
                     <div class="col-sm-6 col-12">
                         <a href="<?php echo get_permalink($tab_2['main_post'] -> ID); ?>">
-                            <h2 class="text-white"><?php echo $tab_1['main_post'] -> post_title; ?></h2>
+                            <h2 class="text-white"><?php echo $tab_2['main_post'] -> post_title; ?></h2>
                         </a>
-                        <p class="text-white d-sm-block d-none"><?php echo $tab_1['main_post'] -> post_excerpt; ?></p>
+                        <p class="text-white d-sm-block d-none"><?php echo $tab_2['main_post'] -> post_excerpt; ?></p>
                         <a class="text-white" href="<?php echo get_permalink($tab_2_custom_fields['author'] -> ID); ?>">
                             <?php echo get_the_title($tab_2_custom_fields['author'] -> ID); ?>
                         </a>
