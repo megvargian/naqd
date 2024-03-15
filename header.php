@@ -42,6 +42,7 @@ $current_language = apply_filters('wpml_current_language', NULL);
 //     $post_slug = $post->post_name;
 // }
 ?>
+test
 <div id="page" class="site main_page_wrapper">
     <div class="modal fade" id="search" tabindex="-1" aria-labelledby="searchLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
