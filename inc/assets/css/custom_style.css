@@ -616,6 +616,11 @@ section {
   align-items: center;
 }
 
+.nav-pills span {
+  border: 1px solid #fff;
+  margin: 0rem 3rem;
+}
+
 .copyright_cont .social_links {
   display: flex;
   justify-content: start;

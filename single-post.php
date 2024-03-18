@@ -72,6 +72,14 @@ $current_language = apply_filters('wpml_current_language', NULL);
                             <p><?php echo get_the_date(); ?></p>
                         </div>
                         <div class="row pb-3">
+                            <div class="col-1">
+                                <p id="smaller" style="cursor: pointer;" class="mr-3">A-</p>
+                            </div>
+                            <div class="col-1">
+                                <p id="bigger" style="cursor: pointer;">A+</p>
+                            </div>
+                        </div>
+                        <div class="row pb-3">
                             <div id="content" class="content">
                                 <?php the_content(); ?>
                             </div>
@@ -151,6 +159,16 @@ $current_language = apply_filters('wpml_current_language', NULL);
     jQuery(document).ready(function($) {
         const progressBar = $("#progress-bar");
         const content = $("#content");
+        // make font smaller
+        $('#smaller').click(function() {
+            var currentFontSize = parseInt($('#content p').css('font-size'));
+            $('#content p').css('font-size', currentFontSize - 2 + "px");
+        });
+        // make font bigger
+        $('#bigger').click(function() {
+            var currentFontSize = parseInt($('#content p').css('font-size'));
+            $('#content p').css('font-size', currentFontSize + 2 + "px");
+        });
 
         // Calculate the total scroll height
         console.log(content.prop("scrollHeight"));

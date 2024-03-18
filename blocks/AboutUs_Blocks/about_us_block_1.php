@@ -21,7 +21,7 @@ $query = new WP_Query($args);
     <div class="container">
         <div class="row justify-content-center py-5 mb-5">
             <?php foreach( $first_two_members as $member){ ?>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-3">
                     <div class="member">
                         <img src="<?php echo $member['image']; ?>" alt="<?php echo $member['title']; ?>">
                         <h5><?php echo $member['title']; ?></h5>
@@ -32,7 +32,7 @@ $query = new WP_Query($args);
         </div>
         <div class="row justify-content-center pb-5 mb-5">
             <?php foreach( $four_members as $member){ ?>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-3">
                     <div class="member">
                         <img src="<?php echo $member['image']; ?>" alt="<?php echo $member['title']; ?>">
                         <h5><?php echo $member['title']; ?></h5>

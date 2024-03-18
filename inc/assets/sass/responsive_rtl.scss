@@ -64,6 +64,10 @@
 	#order-list-podcast{
 		padding: 0 3rem 0 0;
 	}
+	.member, .author {
+		margin: 5px 0;
+		padding: 5px;
+	}
 }
 @media (max-width: 991px) {
 	//genearal classes
@@ -503,6 +507,10 @@
 			font-size: 25px;
 		}
 	}
+	.member, .author {
+		margin: 15px;
+		padding: 15px;
+	}
 }
 @media (max-width: 767px){
 	.inner-post {
@@ -573,6 +581,10 @@
 			text-align: right;
 			font-size: 20px;
 		}
+	}
+	.member, .author{
+		margin: 15px;
+		padding: 10px;
 	}
 }
 @media (max-width: 575px){
@@ -707,6 +719,11 @@
 	.inner-post {
 		.inner-author {
 			bottom: -11%;
+		}
+	}
+	.nav-pills {
+		span{
+			margin: 0rem .5rem;
 		}
 	}
 }

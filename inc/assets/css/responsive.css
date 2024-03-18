@@ -34,6 +34,10 @@
   .single_category .inner-post .inner-author {
     bottom: -15%;
   }
+  .member, .author {
+    margin: 5px 0;
+    padding: 5px;
+  }
 }
 @media (max-width: 991px) {
   h2 {
@@ -489,6 +493,10 @@
   .about-us p {
     font-size: 25px;
   }
+  .member, .author {
+    margin: 15px;
+    padding: 15px;
+  }
 }
 @media (max-width: 767px) {
   .inner-post .inner-author {
@@ -526,6 +534,10 @@
   }
   #order-list-podcast {
     padding: 0 0 0 3rem;
+  }
+  .member, .author {
+    margin: 15px;
+    padding: 10px;
   }
 }
 @media (max-width: 575px) {
@@ -603,6 +615,9 @@
 @media (max-width: 400px) {
   .inner-post .inner-author {
     bottom: -11%;
+  }
+  .nav-pills span {
+    margin: 0rem 0.5rem;
   }
 }
 @media (max-width: 470px) {
